@@ -116,9 +116,9 @@ body {
     border-right: 0;
 }
 
-.tab-triggers:active {
-    color: #fff;
-    background-color: #000;
+.tab-triggers:hover {
+    background: black;
+    color: white;
 }
 
 /* Locations ============================================================================================= */
@@ -139,11 +139,17 @@ body {
 }
 
 .main__block-locations-list {
-    padding: 33px 0 0 18px;
+    padding: 33px 0 33px 18px;
     border: 1px solid #000;
     border-top: 0;
     border-left: 0;
     height: 322px;
+}
+
+.main__block-locations-list-items {
+    max-height: 260px;
+    overflow: auto;
+    scrollbar-width: none;
 }
 
 .main__block-locations-item {
@@ -157,6 +163,10 @@ body {
     text-decoration: none;
     color: #000;
 }
+.main__block-locations-item-link:hover {
+    text-decoration: underline;
+}
+
 
 /* details ============================================================================================= */
 
