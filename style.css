@@ -82,7 +82,76 @@ body {
 }
 
 .like-city {
-    padding: 0 26px 23px 0;
+    padding: 5px;
+    margin: 0 21px 18px 0;
+    background-color: inherit;
+}
+
+/* details ============================================================================================= */
+
+.main__block-details-city {
+    padding: 33px 0 0 17px;
+}
+
+.main__block-details-settings {
+    padding: 42px 0 0 15px;
+}
+
+.weather-conditions {
+    padding-bottom: 12px;
+}
+
+/* forecast ============================================================================================= */
+
+.main__block-forecast {
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 345px;
+}
+.main__block-forecast::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.main__block-forecast-time {
+    border: 1px solid #000;
+    width: 265px;
+    height: 120px;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 auto 9px;
+}
+
+.city--dop-px {
+    margin-bottom: 7px;
+}
+
+.main__block-forecast-timeline {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.main__block-forecast-date {
+    padding: 6px 0 0 8px;
+}
+
+.main__block-forecast-hour {
+    padding: 6px 12px 0 0;
+}
+
+.main__block-forecast-characteristic {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main__block-forecast-characteristic-temperature {
+    padding: 0 0 13px 10px;
+}
+
+.forecast__condition {
+    padding: 0 10px 9px 0;
 }
 
 /* <a> tab ====================================================================================== */
@@ -149,7 +218,12 @@ body {
 .main__block-locations-list-items {
     max-height: 260px;
     overflow: auto;
+    -ms-overflow-style: none;
     scrollbar-width: none;
+}
+.main__block-locations-list-items::-webkit-scrollbar {
+    width: 0;
+    height: 0;
 }
 
 .main__block-locations-item {
@@ -160,73 +234,9 @@ body {
 }
 
 .main__block-locations-item-link {
-    text-decoration: none;
-    color: #000;
+    font-size: 24px;
+    background-color: inherit;
 }
 .main__block-locations-item-link:hover {
     text-decoration: underline;
-}
-
-
-/* details ============================================================================================= */
-
-.main__block-details-city {
-    padding: 33px 0 0 17px;
-}
-
-.main__block-details-settings {
-    padding: 42px 0 0 15px;
-}
-
-.weather-conditions {
-    padding-bottom: 12px;
-}
-
-/* forecast ============================================================================================= */
-
-.main__block-forecast {
-    overflow: auto;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
-    height: 345px;
-}
-
-.main__block-forecast-time {
-    border: 1px solid #000;
-    width: 265px;
-    height: 120px;
-    font-size: 18px;
-    line-height: 21px;
-    margin: 0 auto 9px;
-}
-
-.city--dop-px {
-    margin-bottom: 7px;
-}
-
-.main__block-forecast-timeline {
-    display: flex;
-    justify-content: space-between;
-    padding-bottom: 30px;
-}
-
-.main__block-forecast-date {
-    padding: 6px 0 0 8px;
-}
-
-.main__block-forecast-hour {
-    padding: 6px 12px 0 0;
-}
-
-.main__block-forecast-characteristic {
-    display: flex;
-    justify-content: space-between;
-}
-
-.main__block-forecast-characteristic-temperature {
-    padding: 0 0 13px 10px;
-}
-
-.forecast__condition {
-    padding: 0 10px 9px 0;
 }
