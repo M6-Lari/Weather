@@ -1,5 +1,5 @@
-import {ELEMENTS_UI, deleteCity} from './viewUI.js';
-import {SERVER} from "./server.js";
+import {ELEMENTS_UI, deleteCity} from 'viewUI.js';
+import {SERVER} from "server.js";
 
 document.querySelector('.tab-triggers').click();
 
